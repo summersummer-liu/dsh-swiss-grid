@@ -1,0 +1,5 @@
+# dsh-swiss-grid bundle: registers the packaged
+# skills/swiss-grid-design/SKILL.md on ctx.skills.
+- insert:
+    - id: dsh-swiss-grid
+      name: dsh-swiss-grid

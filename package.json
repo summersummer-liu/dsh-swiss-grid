@@ -1,0 +1,62 @@
+{
+  "name": "dsh-swiss-grid",
+  "version": "1.1.0",
+  "description": "Swiss grid layout system for DeepSeek Harness — compute 版心, columns, baseline and type scale, then build print-ready SVG-to-PDF posters, books, magazines and exhibition graphics with a grid-overlay proof.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "scripts",
+    "README.md",
+    "README.zh-CN.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "swiss-grid",
+    "grid-system",
+    "poster",
+    "typography",
+    "layout",
+    "muller-brockmann",
+    "baseline-grid",
+    "网格系统",
+    "海报",
+    "版式设计"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/summersummer-liu/dsh-swiss-grid.git"
+  },
+  "homepage": "https://github.com/summersummer-liu/dsh-swiss-grid",
+  "bugs": {
+    "url": "https://github.com/summersummer-liu/dsh-swiss-grid/issues"
+  },
+  "scripts": {
+    "test": "node --test",
+    "pack:check": "npm pack --dry-run"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.1.1-rc.1"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

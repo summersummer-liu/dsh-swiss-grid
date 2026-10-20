@@ -1,0 +1,32 @@
+dsh-swiss-grid — NOTICE
+
+Method attribution
+------------------
+The grid system documented in this plugin is attributed to Josef Müller-Brockmann's
+"Grid systems in graphic design" (Niggli Verlag, 1981; Chinese edition published by
+Shanghai People's Fine Arts Publishing House, 2016). This project is an independent
+summary, methodology reference and rendering toolchain. It is not affiliated with,
+sponsored or endorsed by the author, the publisher, or the rights holders.
+
+No pages, scans, figures or long excerpts from the book are redistributed. The
+reference documents are original summaries and parameter tables derived from the
+publicly known method, plus this project's own engineering notes.
+
+Example content
+---------------
+The example exhibition ("SYNTHETIC NATURE" / 合成自然), its dates, institutions,
+curators, artists and URLs are fictional and are provided to demonstrate the
+layout method only.
+
+Fonts
+-----
+No font software is distributed with this package. The toolchain references the
+fonts installed on the user's machine (for example Microsoft YaHei, Noto Sans SC,
+Source Han Sans, Arial) only as font-family names and documentation examples.
+The example preview image was rendered with fonts installed on the build machine;
+obtaining the necessary licences for any proprietary font is the user's
+responsibility.
+
+Code licence
+------------
+MIT. See LICENSE.
